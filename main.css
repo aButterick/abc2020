@@ -1,0 +1,210 @@
+/*****BASE STYLES*****/
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+    font-family:'Roboto Condensed', sans-serif;
+    color: #778899;
+    font-size: 18px;
+    }
+
+
+h1 {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+}
+
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h4 {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px,
+}
+
+.center {
+  
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+
+#container {
+    justify-content: center;
+ }
+
+/*****GRID*****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    margin: 0 auto;
+    float: left;
+}
+
+/****Header****/
+header {
+    height: 150px;
+    width: auto;  
+    padding: 25px 0px 0px 0px;
+    background: url('../img/header-banner-gradient.png');
+   
+}
+
+#initials {
+    width: 400px;
+    height: auto;
+    float: left;
+    color: #f0f8ff;
+    padding:0px 0px 30px 30px;
+    margin: 0px 0px 10px 0px;
+  
+
+}
+
+#title {
+    width: 400px;
+    height: auto;
+    float: left;
+    text-align: center;
+    color: #f0f8ff;
+    padding: 10px;
+}
+
+#menu {
+    width: 300px;
+    height: auto;
+    float: left;
+    text-align: right;
+    margin-left: 0px;
+    padding: 0px;
+    font-family: "Roboto Condensed", sans serif;
+    font-variant: small-caps;
+}
+
+.menu-list {
+    color: #f0f8ff;
+}
+
+/****AlertBox-Work in Progress****/
+div.third-width.warning {
+    width: 200px;
+    border: 3px solid darkgreen;
+    font: "Merriweather", serif;
+    font-size: 24;
+    color: rebeccapurple;
+    background-color: #f0f8ff;
+    padding: 0.8em 0.8em 0.6em;
+}
+
+
+
+/****Visual Design****/
+#visual-design .full-width {
+    padding: 25px 100px 0px 100px;
+}
+
+/****Photography****/
+#photography .full-width {
+    padding: 25px 100px 0px 100px;
+}
+
+/****About****/
+#about-me .full-width {
+    padding: 25px 100px 0px 100px;
+}
+
+
+/****Let's Connect****/
+#lets-connect .full-width {
+    padding: 25px 100px 0px 100px;
+}
+
+
+
+/*****BRAND COLORED BOXES*****/
+#brand-colors {
+    padding: 20px;
+
+}
+
+
+.box {
+    width: 14px;
+    height: 14px;
+    margin: 5px;
+    border: 1px solid rgba(119, 136, 153, .2);
+    padding: 20px;
+}
+
+.purple {
+    background: #663399;
+}
+
+.green {
+    background: #007236;
+}
+
+.white {
+    background: #f0f8ff;
+}
+
+.orange {
+    background: #ff4500;
+}
+
+.gray {
+    background: #778899;
+}
+
+#purple-square {
+   margin-left: 50px;
+   padding: 0px 20px 0px 20px;
+  
+
+}
+#green-square {
+    margin-left: 50px;
+    padding: 0px 20px 0px 20px;
+   
+}
+#white-square {
+    margin-left: 50px;
+    padding: 0px 20px 0px 20px;
+   
+}
+#orange-square {
+    margin-left: 50px;
+    padding: 0px 20px 0px 20px;
+    
+}
+#gray-square {
+    margin-left: 50px;
+    padding: 0px 20px 0px 20px;
+    
+}
+
+#say-yes {
+    text-align: center;
+}
